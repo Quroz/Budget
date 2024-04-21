@@ -4,8 +4,11 @@ import loginBg from "./../../assets/loginBg.jpeg"
 import Colors from '../../utils/Colors'
 import { client } from "../../utils/KindeConfig"
 import services from '../../utils/services'
+import { useRouter } from "expo-router"
 
 const LoginScreen = () => {
+
+    const router = useRouter();
 
     const handleLogin = async () => {
         try {
