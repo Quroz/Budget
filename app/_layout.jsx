@@ -10,8 +10,8 @@ const HomeLayout = () => {
         "outfit-medium": require("../assets/fonts/Outfit-Medium.ttf"),
     })
     return (
-        <Stack>
-            <Stack.Screen name="/login" options={{ headerShown: false }} />
+        <Stack screenOptions={{ headerShown: false }}>
+            <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         </Stack>
     )
 }
