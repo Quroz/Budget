@@ -13,6 +13,7 @@ const HomeLayout = () => {
         <Stack screenOptions={{ headerShown: false }}>
             <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
             <Stack.Screen name="add-new-category" options={{ headerShown: true, presentation: "modal", headerTitle: "Add New Category" }} />
+            <Stack.Screen name="add-new-category-item" options={{ headerShown: true, presentation: "modal", headerTitle: "Add New Category Item" }} />
         </Stack>
     )
 }
